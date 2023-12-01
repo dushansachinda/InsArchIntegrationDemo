@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="policyReconsileSeq" onError="fault" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="full">
+        <property name="Opportunity Create Event" value="Event Received"/>
+    </log>
+    <!-- Extract the ID from the JSON event -->
+    <property expression="json-eval($.sobject.Id)" name="opportunityId" scope="default" type="STRING"/>
+    <log level="custom">
+        <property expression="get-property('opportunityId')" name="ExtractedOpportunityId"/>
+    </log>
+    <!-- Modify the Salesforce query string to include the extracted ID -->
+    <property expression="fn:concat('select Id, Name from Opportunity where Id =', get-property('opportunityId'),'')" name="queryString" scope="default" type="STRING"/>
+    <script language="js"><![CDATA[var oppId = mc.getProperty("opportunityId");
+        mc.setProperty("constructedQueryString", "SELECT Id, Name, AccountId, Account.Name, CloseDate, StageName, Amount, Probability, Type, LeadSource, OwnerId, Owner.Name, CreatedDate, LastModifiedDate, ForecastCategory, Description,OrderNumber__c, (SELECT Id, Product2Id, Product2.Name, Quantity, UnitPrice, TotalPrice FROM OpportunityLineItems)FROM  Opportunity where Id = '" + oppId + "'");]]></script>
+    <log level="custom">
+        <property expression="get-property('queryString')" name="####queryString"/>
+    </log>
+    <salesforcerest.query configKey="SALESFORCEREST_CONNECTION_1">
+        <queryString>{$ctx:constructedQueryString}</queryString>
+    </salesforcerest.query>
+    <log level="full">
+        <property name="Opportunity Retrieve" value="Opportunity information loading"/>
+    </log>
+    <datamapper config="gov:datamapper/OpperunityDataMap.dmc" description="ops" inputSchema="gov:datamapper/OpperunityDataMap_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/OpperunityDataMap_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/OpperunityDataMap_xsltStyleSheet.xml"/>
+    <log level="full"/>
+    <call>
+        <endpoint>
+            <http method="post" uri-template="https://webhook.site/8430a580-1142-4075-bcd8-441fcb30a2ed">
+                <suspendOnFailure>
+                    <initialDuration>-1</initialDuration>
+                    <progressionFactor>-1</progressionFactor>
+                    <maximumDuration>0</maximumDuration>
+                </suspendOnFailure>
+                <markForSuspension>
+                    <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                </markForSuspension>
+            </http>
+        </endpoint>
+    </call>
+    <drop/>
+</sequence>

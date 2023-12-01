@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="SaleforceInboundEP" groupId="com.example.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/inbound-endpoints/SaleforceInboundEP.xml</file>
+    </artifact>
+    <artifact name="policyReconsileSeq" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/policyReconsileSeq.xml</file>
+    </artifact>
+    <artifact name="SALESFORCEREST_CONNECTION_1" groupId="com.example.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/SALESFORCEREST_CONNECTION_1.xml</file>
+    </artifact>
+</artifacts>

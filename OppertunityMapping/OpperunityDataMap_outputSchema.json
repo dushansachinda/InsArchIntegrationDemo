@@ -1,0 +1,227 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "rootDemo",
+  "type" : "object",
+  "properties" : {
+    "totalSize" : {
+      "id" : "http://wso2jsonschema.org/totalSize",
+      "type" : "number"
+    },
+    "done" : {
+      "id" : "http://wso2jsonschema.org/done",
+      "type" : "boolean"
+    },
+    "records" : {
+      "id" : "http://wso2jsonschema.org/records",
+      "type" : "object",
+      "properties" : {
+        "attributes" : {
+          "id" : "http://wso2jsonschema.org/records/attributes",
+          "type" : "object",
+          "properties" : {
+            "type" : {
+              "id" : "http://wso2jsonschema.org/records/attributes/type",
+              "type" : "string"
+            },
+            "url" : {
+              "id" : "http://wso2jsonschema.org/records/attributes/url",
+              "type" : "string"
+            }
+          }
+        },
+        "Id" : {
+          "id" : "http://wso2jsonschema.org/records/Id",
+          "type" : "string"
+        },
+        "Name" : {
+          "id" : "http://wso2jsonschema.org/records/Name",
+          "type" : "string"
+        },
+        "AccountId" : {
+          "id" : "http://wso2jsonschema.org/records/AccountId",
+          "type" : "string"
+        },
+        "Account" : {
+          "id" : "http://wso2jsonschema.org/records/Account",
+          "type" : "object",
+          "properties" : {
+            "attributes" : {
+              "id" : "http://wso2jsonschema.org/records/Account/attributes",
+              "type" : "object",
+              "properties" : {
+                "type" : {
+                  "id" : "http://wso2jsonschema.org/records/Account/attributes/type",
+                  "type" : "string"
+                },
+                "url" : {
+                  "id" : "http://wso2jsonschema.org/records/Account/attributes/url",
+                  "type" : "string"
+                }
+              }
+            },
+            "Name" : {
+              "id" : "http://wso2jsonschema.org/records/Account/Name",
+              "type" : "string"
+            }
+          }
+        },
+        "CloseDate" : {
+          "id" : "http://wso2jsonschema.org/records/CloseDate",
+          "type" : "string"
+        },
+        "StageName" : {
+          "id" : "http://wso2jsonschema.org/records/StageName",
+          "type" : "string"
+        },
+        "Amount" : {
+          "id" : "http://wso2jsonschema.org/records/Amount",
+          "type" : "number"
+        },
+        "Probability" : {
+          "id" : "http://wso2jsonschema.org/records/Probability",
+          "type" : "number"
+        },
+        "Type" : {
+          "id" : "http://wso2jsonschema.org/records/Type",
+          "type" : "string"
+        },
+        "LeadSource" : {
+          "id" : "http://wso2jsonschema.org/records/LeadSource",
+          "type" : "string"
+        },
+        "OwnerId" : {
+          "id" : "http://wso2jsonschema.org/records/OwnerId",
+          "type" : "string"
+        },
+        "Owner" : {
+          "id" : "http://wso2jsonschema.org/records/Owner",
+          "type" : "object",
+          "properties" : {
+            "attributes" : {
+              "id" : "http://wso2jsonschema.org/records/Owner/attributes",
+              "type" : "object",
+              "properties" : {
+                "type" : {
+                  "id" : "http://wso2jsonschema.org/records/Owner/attributes/type",
+                  "type" : "string"
+                },
+                "url" : {
+                  "id" : "http://wso2jsonschema.org/records/Owner/attributes/url",
+                  "type" : "string"
+                }
+              }
+            },
+            "Name" : {
+              "id" : "http://wso2jsonschema.org/records/Owner/Name",
+              "type" : "string"
+            }
+          }
+        },
+        "CreatedDate" : {
+          "id" : "http://wso2jsonschema.org/records/CreatedDate",
+          "type" : "string"
+        },
+        "LastModifiedDate" : {
+          "id" : "http://wso2jsonschema.org/records/LastModifiedDate",
+          "type" : "string"
+        },
+        "ForecastCategory" : {
+          "id" : "http://wso2jsonschema.org/records/ForecastCategory",
+          "type" : "string"
+        },
+        "Description" : {
+          "id" : "http://wso2jsonschema.org/records/Description",
+          "type" : "string"
+        },
+        "OrderNumber" : {
+          "id" : "http://wso2jsonschema.org/records/OrderNumber",
+          "type" : "number"
+        },
+        "OpportunityLineItems" : {
+          "id" : "http://wso2jsonschema.org/records/OpportunityLineItems",
+          "type" : "object",
+          "properties" : {
+            "totalSize" : {
+              "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/totalSize",
+              "type" : "number"
+            },
+            "done" : {
+              "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/done",
+              "type" : "boolean"
+            },
+            "records" : {
+              "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records",
+              "type" : "array",
+              "items" : [ {
+                "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0",
+                "type" : "object",
+                "properties" : {
+                  "attributes" : {
+                    "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes",
+                    "type" : "object",
+                    "properties" : {
+                      "type" : {
+                        "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/type",
+                        "type" : "string"
+                      },
+                      "url" : {
+                        "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/url",
+                        "type" : "string"
+                      }
+                    }
+                  },
+                  "Id" : {
+                    "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Id",
+                    "type" : "string"
+                  },
+                  "Product2Id" : {
+                    "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2Id",
+                    "type" : "string"
+                  },
+                  "Product2" : {
+                    "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2",
+                    "type" : "object",
+                    "properties" : {
+                      "attributes" : {
+                        "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes",
+                        "type" : "object",
+                        "properties" : {
+                          "type" : {
+                            "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/type",
+                            "type" : "string"
+                          },
+                          "url" : {
+                            "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/url",
+                            "type" : "string"
+                          }
+                        }
+                      },
+                      "Name" : {
+                        "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/Name",
+                        "type" : "string"
+                      }
+                    }
+                  },
+                  "Quantity" : {
+                    "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Quantity",
+                    "type" : "number"
+                  },
+                  "UnitPrice" : {
+                    "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/UnitPrice",
+                    "type" : "number"
+                  },
+                  "TotalPrice" : {
+                    "id" : "http://wso2jsonschema.org/records/OpportunityLineItems/records/0/TotalPrice",
+                    "type" : "number"
+                  }
+                }
+              } ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

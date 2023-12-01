@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="totalSize" schemaDataType="NUMBER" level="2">
+        <properties key="type" value="number"/>
+        <properties key="id" value="http://wso2jsonschema.org/totalSize"/>
+        <properties key="nullable" value="false"/>
+        <outNode>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.0/@inNode"/>
+        </outNode>
+        <inNode/>
+      </node>
+      <node name="done" schemaDataType="BOOLEAN" level="2">
+        <properties key="type" value="boolean"/>
+        <properties key="id" value="http://wso2jsonschema.org/done"/>
+        <properties key="nullable" value="false"/>
+        <outNode>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.1/@inNode"/>
+        </outNode>
+        <inNode/>
+      </node>
+      <node name="records" level="2">
+        <node name="attributes" schemaDataType="OBJECT" level="3">
+          <node name="type" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/0/attributes/type"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.18/@node.2/@node.3/@node.0/@node.0/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="url" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/0/attributes/url"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.18/@node.2/@node.3/@node.0/@node.1/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/attributes"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="Id" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/Id"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.1/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="Name" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/Name"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.2/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="AccountId" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/AccountId"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.3/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="Account" schemaDataType="OBJECT" level="3">
+          <node name="attributes" schemaDataType="OBJECT" level="4">
+            <node name="type" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/Account/attributes/type"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.18/@node.2/@node.0/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="url" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/Account/attributes/url"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.18/@node.2/@node.0/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/0/Account/attributes"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{type={id=http://wso2jsonschema.org/records/0/Account/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/Account/attributes/url, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="Name" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/0/Account/Name"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/Account"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="CloseDate" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/CloseDate"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.5/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="StageName" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/StageName"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.6/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="Amount" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/Amount"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.7/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="Probability" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/Probability"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.8/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="Type" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/Type"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.9/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="LeadSource" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/LeadSource"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.10/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="OwnerId" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/OwnerId"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.11/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="Owner" schemaDataType="OBJECT" level="3">
+          <node name="attributes" schemaDataType="OBJECT" level="4">
+            <node name="type" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/Owner/attributes/type"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.12/@node.0/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="url" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/Owner/attributes/url"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.12/@node.0/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/0/Owner/attributes"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{type={id=http://wso2jsonschema.org/records/0/Owner/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/Owner/attributes/url, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="Name" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/0/Owner/Name"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/Owner"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="CreatedDate" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/CreatedDate"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.13/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="LastModifiedDate" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/LastModifiedDate"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.14/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="ForecastCategory" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/ForecastCategory"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.15/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="Description" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/Description"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.16/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="OrderNumber__c" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/OrderNumber__c"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.17/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="OpportunityLineItems" schemaDataType="OBJECT" level="3">
+          <node name="totalSize" schemaDataType="NUMBER" level="4">
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/totalSize"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="done" schemaDataType="BOOLEAN" level="4">
+            <properties key="type" value="boolean"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/done"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="records" level="4">
+            <node name="attributes" schemaDataType="OBJECT" level="5">
+              <node name="type" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes/type"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.4/@node.0/@node.0/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="url" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes/url"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.4/@node.0/@node.1/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="Id" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Id"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="Product2Id" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2Id"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.18/@node.2/@node.2/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="Product2" schemaDataType="OBJECT" level="5">
+              <node name="attributes" schemaDataType="OBJECT" level="6">
+                <node name="type" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/type"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.0/@node.0/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="url" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/url"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.0/@node.1/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{type={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/url, type=string}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="Name" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/Name"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{type={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes/url, type=string}}"/>
+              <properties key="properties_id" value="{attributes={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/Name, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="Quantity" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Quantity"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.18/@node.2/@node.4/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="UnitPrice" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/UnitPrice"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.18/@node.2/@node.5/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="TotalPrice" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/TotalPrice"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.2/@node.18/@node.2/@node.6/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="array"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records"/>
+            <properties key="items_id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0"/>
+            <properties key="items_type" value="object"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{attributes={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes/url, type=string}}}, Id={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Id, type=string}, Product2Id={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2Id, type=string}, Product2={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2, type=object, properties={attributes={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/Name, type=string}}}, Quantity={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Quantity, type=number}, UnitPrice={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/UnitPrice, type=number}, TotalPrice={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/TotalPrice, type=number}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/0/OpportunityLineItems"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{type={id=http://wso2jsonschema.org/records/0/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/attributes/url, type=string}}"/>
+          <properties key="properties_id" value="{attributes={id=http://wso2jsonschema.org/records/0/Account/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/Account/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/Account/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/0/Account/Name, type=string}}"/>
+          <properties key="properties_id" value="{attributes={id=http://wso2jsonschema.org/records/0/Owner/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/Owner/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/Owner/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/0/Owner/Name, type=string}}"/>
+          <properties key="properties_id" value="{totalSize={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/totalSize, type=number}, done={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/done, type=boolean}, records={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records, type=array, items=[{id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0, type=object, properties={attributes={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes/url, type=string}}}, Id={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Id, type=string}, Product2Id={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2Id, type=string}, Product2={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2, type=object, properties={attributes={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/Name, type=string}}}, Quantity={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Quantity, type=number}, UnitPrice={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/UnitPrice, type=number}, TotalPrice={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/TotalPrice, type=number}}}]}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="array"/>
+        <properties key="id" value="http://wso2jsonschema.org/records"/>
+        <properties key="items_id" value="http://wso2jsonschema.org/records/0"/>
+        <properties key="items_type" value="object"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{attributes={id=http://wso2jsonschema.org/records/0/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/attributes/url, type=string}}}, Id={id=http://wso2jsonschema.org/records/0/Id, type=string}, Name={id=http://wso2jsonschema.org/records/0/Name, type=string}, AccountId={id=http://wso2jsonschema.org/records/0/AccountId, type=string}, Account={id=http://wso2jsonschema.org/records/0/Account, type=object, properties={attributes={id=http://wso2jsonschema.org/records/0/Account/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/Account/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/Account/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/0/Account/Name, type=string}}}, CloseDate={id=http://wso2jsonschema.org/records/0/CloseDate, type=string}, StageName={id=http://wso2jsonschema.org/records/0/StageName, type=string}, Amount={id=http://wso2jsonschema.org/records/0/Amount, type=number}, Probability={id=http://wso2jsonschema.org/records/0/Probability, type=number}, Type={id=http://wso2jsonschema.org/records/0/Type, type=string}, LeadSource={id=http://wso2jsonschema.org/records/0/LeadSource, type=string}, OwnerId={id=http://wso2jsonschema.org/records/0/OwnerId, type=string}, Owner={id=http://wso2jsonschema.org/records/0/Owner, type=object, properties={attributes={id=http://wso2jsonschema.org/records/0/Owner/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/Owner/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/Owner/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/0/Owner/Name, type=string}}}, CreatedDate={id=http://wso2jsonschema.org/records/0/CreatedDate, type=string}, LastModifiedDate={id=http://wso2jsonschema.org/records/0/LastModifiedDate, type=string}, ForecastCategory={id=http://wso2jsonschema.org/records/0/ForecastCategory, type=string}, Description={id=http://wso2jsonschema.org/records/0/Description, type=string}, OrderNumber__c={id=http://wso2jsonschema.org/records/0/OrderNumber__c, type=string}, OpportunityLineItems={id=http://wso2jsonschema.org/records/0/OpportunityLineItems, type=object, properties={totalSize={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/totalSize, type=number}, done={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/done, type=boolean}, records={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records, type=array, items=[{id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0, type=object, properties={attributes={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/attributes/url, type=string}}}, Id={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Id, type=string}, Product2Id={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2Id, type=string}, Product2={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2, type=object, properties={attributes={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Product2/Name, type=string}}}, Quantity={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/Quantity, type=number}, UnitPrice={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/UnitPrice, type=number}, TotalPrice={id=http://wso2jsonschema.org/records/0/OpportunityLineItems/records/0/TotalPrice, type=number}}}]}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="rootDemo" schemaDataType="OBJECT" level="1">
+      <node name="totalSize" schemaDataType="NUMBER" level="2">
+        <properties key="type" value="number"/>
+        <properties key="id" value="http://wso2jsonschema.org/totalSize"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="done" schemaDataType="BOOLEAN" level="2">
+        <properties key="type" value="boolean"/>
+        <properties key="id" value="http://wso2jsonschema.org/done"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.1/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="records" schemaDataType="OBJECT" level="2">
+        <node name="attributes" schemaDataType="OBJECT" level="3">
+          <node name="type" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/attributes/type"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.18/@node.2/@node.3/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="url" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/attributes/url"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.18/@node.2/@node.3/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/attributes"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="Id" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/Id"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.1/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="Name" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/Name"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.2/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="AccountId" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/AccountId"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.3/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="Account" schemaDataType="OBJECT" level="3">
+          <node name="attributes" schemaDataType="OBJECT" level="4">
+            <node name="type" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/Account/attributes/type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.18/@node.2/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="url" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/Account/attributes/url"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.18/@node.2/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/Account/attributes"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{type={id=http://wso2jsonschema.org/records/Account/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/Account/attributes/url, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="Name" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/Account/Name"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/Account"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="CloseDate" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/CloseDate"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.5/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="StageName" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/StageName"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.6/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="Amount" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/Amount"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.7/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="Probability" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/Probability"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.8/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="Type" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/Type"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.9/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="LeadSource" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/LeadSource"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.10/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="OwnerId" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/OwnerId"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.11/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="Owner" schemaDataType="OBJECT" level="3">
+          <node name="attributes" schemaDataType="OBJECT" level="4">
+            <node name="type" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/Owner/attributes/type"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.12/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="url" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/Owner/attributes/url"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.12/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/Owner/attributes"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{type={id=http://wso2jsonschema.org/records/Owner/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/Owner/attributes/url, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="Name" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/Owner/Name"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/Owner"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="CreatedDate" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/CreatedDate"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.13/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="LastModifiedDate" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/LastModifiedDate"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.14/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="ForecastCategory" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/ForecastCategory"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.15/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="Description" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/Description"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.16/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="OrderNumber" schemaDataType="NUMBER" level="3">
+          <properties key="type" value="number"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/OrderNumber"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.17/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="OpportunityLineItems" schemaDataType="OBJECT" level="3">
+          <node name="totalSize" schemaDataType="NUMBER" level="4">
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/totalSize"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="done" schemaDataType="BOOLEAN" level="4">
+            <properties key="type" value="boolean"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/done"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="records" level="4">
+            <node name="attributes" schemaDataType="OBJECT" level="5">
+              <node name="type" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/type"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.4/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="url" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/url"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.4/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="Id" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Id"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="Product2Id" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2Id"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.18/@node.2/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="Product2" schemaDataType="OBJECT" level="5">
+              <node name="attributes" schemaDataType="OBJECT" level="6">
+                <node name="type" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/type"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+                </node>
+                <node name="url" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/url"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{type={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/url, type=string}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="Name" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/Name"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{type={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/url, type=string}}"/>
+              <properties key="properties_id" value="{attributes={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/Name, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="Quantity" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Quantity"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.18/@node.2/@node.4/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="UnitPrice" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/UnitPrice"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.18/@node.2/@node.5/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="TotalPrice" schemaDataType="NUMBER" level="5">
+              <properties key="type" value="number"/>
+              <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0/TotalPrice"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.18/@node.2/@node.6/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="type" value="array"/>
+            <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records"/>
+            <properties key="items_id" value="http://wso2jsonschema.org/records/OpportunityLineItems/records/0"/>
+            <properties key="items_type" value="object"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{attributes={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/url, type=string}}}, Id={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Id, type=string}, Product2Id={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2Id, type=string}, Product2={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2, type=object, properties={attributes={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/Name, type=string}}}, Quantity={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Quantity, type=number}, UnitPrice={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/UnitPrice, type=number}, TotalPrice={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/TotalPrice, type=number}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/records/OpportunityLineItems"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{type={id=http://wso2jsonschema.org/records/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/attributes/url, type=string}}"/>
+          <properties key="properties_id" value="{attributes={id=http://wso2jsonschema.org/records/Account/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/Account/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/Account/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/Account/Name, type=string}}"/>
+          <properties key="properties_id" value="{attributes={id=http://wso2jsonschema.org/records/Owner/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/Owner/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/Owner/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/Owner/Name, type=string}}"/>
+          <properties key="properties_id" value="{totalSize={id=http://wso2jsonschema.org/records/OpportunityLineItems/totalSize, type=number}, done={id=http://wso2jsonschema.org/records/OpportunityLineItems/done, type=boolean}, records={id=http://wso2jsonschema.org/records/OpportunityLineItems/records, type=array, items=[{id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0, type=object, properties={attributes={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/url, type=string}}}, Id={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Id, type=string}, Product2Id={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2Id, type=string}, Product2={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2, type=object, properties={attributes={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/Name, type=string}}}, Quantity={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Quantity, type=number}, UnitPrice={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/UnitPrice, type=number}, TotalPrice={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/TotalPrice, type=number}}}]}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/records"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{attributes={id=http://wso2jsonschema.org/records/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/attributes/url, type=string}}}, Id={id=http://wso2jsonschema.org/records/Id, type=string}, Name={id=http://wso2jsonschema.org/records/Name, type=string}, AccountId={id=http://wso2jsonschema.org/records/AccountId, type=string}, Account={id=http://wso2jsonschema.org/records/Account, type=object, properties={attributes={id=http://wso2jsonschema.org/records/Account/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/Account/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/Account/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/Account/Name, type=string}}}, CloseDate={id=http://wso2jsonschema.org/records/CloseDate, type=string}, StageName={id=http://wso2jsonschema.org/records/StageName, type=string}, Amount={id=http://wso2jsonschema.org/records/Amount, type=number}, Probability={id=http://wso2jsonschema.org/records/Probability, type=number}, Type={id=http://wso2jsonschema.org/records/Type, type=string}, LeadSource={id=http://wso2jsonschema.org/records/LeadSource, type=string}, OwnerId={id=http://wso2jsonschema.org/records/OwnerId, type=string}, Owner={id=http://wso2jsonschema.org/records/Owner, type=object, properties={attributes={id=http://wso2jsonschema.org/records/Owner/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/Owner/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/Owner/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/Owner/Name, type=string}}}, CreatedDate={id=http://wso2jsonschema.org/records/CreatedDate, type=string}, LastModifiedDate={id=http://wso2jsonschema.org/records/LastModifiedDate, type=string}, ForecastCategory={id=http://wso2jsonschema.org/records/ForecastCategory, type=string}, Description={id=http://wso2jsonschema.org/records/Description, type=string}, OrderNumber={id=http://wso2jsonschema.org/records/OrderNumber, type=number}, OpportunityLineItems={id=http://wso2jsonschema.org/records/OpportunityLineItems, type=object, properties={totalSize={id=http://wso2jsonschema.org/records/OpportunityLineItems/totalSize, type=number}, done={id=http://wso2jsonschema.org/records/OpportunityLineItems/done, type=boolean}, records={id=http://wso2jsonschema.org/records/OpportunityLineItems/records, type=array, items=[{id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0, type=object, properties={attributes={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/attributes/url, type=string}}}, Id={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Id, type=string}, Product2Id={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2Id, type=string}, Product2={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2, type=object, properties={attributes={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes, type=object, properties={type={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/type, type=string}, url={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/attributes/url, type=string}}}, Name={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Product2/Name, type=string}}}, Quantity={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/Quantity, type=number}, UnitPrice={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/UnitPrice, type=number}, TotalPrice={id=http://wso2jsonschema.org/records/OpportunityLineItems/records/0/TotalPrice, type=number}}}]}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>
