@@ -25,7 +25,7 @@
     <log level="full"/>
     <call>
         <endpoint>
-            <http method="post" uri-template="https://webhook.site/8430a580-1142-4075-bcd8-441fcb30a2ed">
+            <http method="post" uri-template="$SYSTEM:WEBHOOK_URL">
                 <suspendOnFailure>
                     <initialDuration>-1</initialDuration>
                     <progressionFactor>-1</progressionFactor>

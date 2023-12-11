@@ -1,8 +1,9 @@
 map_S_root_S_rootDemo = function(){ 
 var outputrootDemo={};
+var CONCAT_44_0 = '';
 
-var count_i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572 = 0;
-var count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4_i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572 = 0;
+var count_i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324 = 0;
+var count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713_i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324 = 0;
 outputrootDemo =  {};
 outputrootDemo.totalSize = inputroot.totalSize;
 outputrootDemo.done = inputroot.done;
@@ -15,49 +16,50 @@ outputrootDemo.records.Owner.attributes =  {};
 outputrootDemo.records.OpportunityLineItems =  {};
 outputrootDemo.records.OpportunityLineItems.records =  [];
 
-for(i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572 in inputroot.records){
-var count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4 = 0;
-outputrootDemo.records.Id = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].Id;
-outputrootDemo.records.Name = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].Name;
-outputrootDemo.records.AccountId = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].AccountId;
-outputrootDemo.records.CloseDate = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].CloseDate;
-outputrootDemo.records.StageName = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].StageName;
-outputrootDemo.records.Amount = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].Amount;
-outputrootDemo.records.Probability = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].Probability;
-outputrootDemo.records.Type = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].Type;
-outputrootDemo.records.LeadSource = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].LeadSource;
-outputrootDemo.records.OwnerId = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OwnerId;
-outputrootDemo.records.Owner.attributes.type = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].Owner.attributes.type;
-outputrootDemo.records.Owner.attributes.url = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].Owner.attributes.url;
-outputrootDemo.records.CreatedDate = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].CreatedDate;
-outputrootDemo.records.LastModifiedDate = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].LastModifiedDate;
-outputrootDemo.records.ForecastCategory = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].ForecastCategory;
-outputrootDemo.records.Description = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].Description;
-outputrootDemo.records.OrderNumber = Number(inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OrderNumber__c);
+for(i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324 in inputroot.records){
+var count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713 = 0;
+CONCAT_44_0 = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Id.toString().concat('',inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Name);
+outputrootDemo.records.Id = customFunction('CR-',CONCAT_44_0);
+outputrootDemo.records.Name = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Name;
+outputrootDemo.records.AccountId = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].AccountId;
+outputrootDemo.records.CloseDate = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].CloseDate;
+outputrootDemo.records.StageName = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].StageName;
+outputrootDemo.records.Amount = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Amount;
+outputrootDemo.records.Probability = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Probability;
+outputrootDemo.records.Type = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Type;
+outputrootDemo.records.LeadSource = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].LeadSource;
+outputrootDemo.records.OwnerId = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OwnerId;
+outputrootDemo.records.Owner.attributes.type = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Owner.attributes.type;
+outputrootDemo.records.Owner.attributes.url = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Owner.attributes.url;
+outputrootDemo.records.CreatedDate = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].CreatedDate;
+outputrootDemo.records.LastModifiedDate = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].LastModifiedDate;
+outputrootDemo.records.ForecastCategory = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].ForecastCategory;
+outputrootDemo.records.Description = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Description;
+outputrootDemo.records.OrderNumber = Number(inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OrderNumber__c);
 
-for(i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4 in inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OpportunityLineItems.records){
-outputrootDemo.records.attributes.type = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OpportunityLineItems.records[i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].Product2.attributes.type;
-outputrootDemo.records.attributes.url = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OpportunityLineItems.records[i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].Product2.attributes.url;
-outputrootDemo.records.Account.attributes.type = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OpportunityLineItems.records[i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].attributes.type;
-outputrootDemo.records.Account.attributes.url = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OpportunityLineItems.records[i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].attributes.url;
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4] =  {};
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].attributes =  {};
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].attributes.type = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].Account.attributes.type;
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].attributes.url = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].Account.attributes.url;
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].Product2Id = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OpportunityLineItems.records[i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].Product2Id;
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].Product2 =  {};
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].Product2.attributes =  {};
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].Product2.attributes.type = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].attributes.type;
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].Product2.attributes.url = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].attributes.url;
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].Quantity = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OpportunityLineItems.records[i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].Quantity;
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].UnitPrice = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OpportunityLineItems.records[i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].UnitPrice;
-outputrootDemo.records.OpportunityLineItems.records[count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].TotalPrice = inputroot.records[i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572].OpportunityLineItems.records[i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4].TotalPrice;
+for(i_records_9093cafa_1abc_4324_8281_1a9bc3d49713 in inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OpportunityLineItems.records){
+outputrootDemo.records.attributes.type = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OpportunityLineItems.records[i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].Product2.attributes.type;
+outputrootDemo.records.attributes.url = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OpportunityLineItems.records[i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].Product2.attributes.url;
+outputrootDemo.records.Account.attributes.type = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OpportunityLineItems.records[i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].attributes.type;
+outputrootDemo.records.Account.attributes.url = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OpportunityLineItems.records[i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].attributes.url;
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713] =  {};
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].attributes =  {};
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].attributes.type = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Account.attributes.type;
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].attributes.url = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].Account.attributes.url;
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].Product2Id = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OpportunityLineItems.records[i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].Product2Id;
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].Product2 =  {};
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].Product2.attributes =  {};
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].Product2.attributes.type = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].attributes.type;
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].Product2.attributes.url = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].attributes.url;
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].Quantity = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OpportunityLineItems.records[i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].Quantity;
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].UnitPrice = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OpportunityLineItems.records[i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].UnitPrice;
+outputrootDemo.records.OpportunityLineItems.records[count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].TotalPrice = inputroot.records[i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324].OpportunityLineItems.records[i_records_9093cafa_1abc_4324_8281_1a9bc3d49713].TotalPrice;
 
-count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4++;
-count_i_records_55f56245_cfd0_4a5b_b3ae_0991c3d024b4_i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572++;
+count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713++;
+count_i_records_9093cafa_1abc_4324_8281_1a9bc3d49713_i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324++;
 }
 
-count_i_records_b236ba23_6ec7_45c9_bd85_3dd110dae572++;
+count_i_records_c28b728e_90d0_454e_8e07_edcd3c3a6324++;
 }
 return outputrootDemo;
 };
@@ -104,3 +106,5 @@ return outputrootDemo;
 
 
 
+
+customFunction = function(in1,in2){ return (in1+ "--" + in2);};
